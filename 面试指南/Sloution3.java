@@ -2,8 +2,14 @@ package th1;
 
 import java.util.ArrayList;
 import java.util.Stack;
-
-public class Sloution3 {
+class ListNode {
+	int val;
+	ListNode next=null;
+	public ListNode(int val) {
+		this.val = val;
+	}
+}
+ class Sloution3 {
 	/*
 	 * 输入一个链表的头结点，从尾到头反过来打印出每个结点的值。
 	 */
