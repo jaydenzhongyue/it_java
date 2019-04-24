@@ -21,6 +21,7 @@
     private int data;
     private BinaryTreeNode left;
     private BinaryTreeNode right;
+    private BinaryTreeNode parent;
     public BinaryTreeNode(int root){
         this.data=root;
     }
@@ -43,6 +44,12 @@
     }
     public BinaryTreeNode getRight(){
         return right;
+    }
+    public void setParent(BinaryTreeNode parent){
+        this.parent=parent;
+    }
+    public BinaryTreeNode getParent(){
+        return parent;
     }
 
 }
